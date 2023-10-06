@@ -1,9 +1,10 @@
-import resume from '../assets/pdf/resume.pdf'
+import PortImage from '../assets/png/Portf.jpg'
+import MyResume from '../assets/pdf/BakhtawersResume1.pdf'
 
 export const headerData = {
-    name: 'Jane Doe',
-    title: "Web Developer",
-    desciption:"There wasn't a bird in the sky, but that was not what caught her attention. It was the clouds. The deep green that isn't the color of clouds, but came with these. She knew what was coming and she hoped she was prepared. ",
-    image: 'https://raw.githubusercontent.com/PhantomScript/asset-container/main/developer-portfolio/landingImg.png',
-    resumePdf: resume
+    name: 'Bakhtawar',
+    title: "Front Developer",
+    desciption:"Passionate and creative Front end Designer with 3+ years of experience in planning, designing and implementing exceptional Software and website designs of Business projects of varying stylesand purposes. Committed to high quality details and achieving client satisfaction at every step of the way. ",
+    image: PortImage,
+    resumePdf: MyResume
 }

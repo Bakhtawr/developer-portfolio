@@ -87,6 +87,22 @@
     resize: none;
 }
 
+#Submitbtn
+{
+    outline: none;
+  border: none;
+  width: 150px;
+  height: 48px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-transform: inherit;
+  border-radius: 45px;
+  font-size: 1.05rem;
+  font-family: var(--primaryFont);
+  font-weight: 500;
+  cursor: pointer;
+}
 
 
 .submit-btn button {
@@ -161,8 +177,7 @@
     width: 90%;
     display: flex;
     flex-wrap: wrap;
-    align-items: center;
-    justify-content: center;
+  
     gap: 1.5rem;
     margin-top: 4rem;
 }
